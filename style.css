@@ -1,0 +1,40 @@
+body {
+  background-color: #09b77c;
+}
+.timer {
+  height: 80vh;
+  width: 80vw;
+  background-color: #09b77c;
+  object-fit: fill;
+  border-radius: 50%;
+  max-width: 650px;
+  border: double 0.5em whitesmoke;
+}
+
+.container {
+  max-width: 800px;
+}
+.time {
+  color: white;
+}
+.time span {
+  font-size: 3em;
+}
+
+@media (max-width: 600px) {
+  .time span {
+    font-size: 150%;
+  }
+}
+.btn {
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  border: 0.16em whitesmoke solid !important;
+}
+.hour,
+.minute,
+.sec,
+.mili-sec {
+  color: white;
+}
